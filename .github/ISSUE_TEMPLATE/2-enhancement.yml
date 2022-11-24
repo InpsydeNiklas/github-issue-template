@@ -1,5 +1,5 @@
 name: ✨ Enhancement Request
-description: If you have an idea to improve an existing feature in core or need something for development (such as a new hook) please let us know or submit a Pull Request!
+description: If you have an idea to improve an existing feature or add a new one please let us know or submit a Pull Request!
 title: "[Enhancement]: "
 labels: ["enhancement", "awaiting triage"]
 body:
@@ -8,11 +8,12 @@ body:
       value: |
         ### Thanks for contributing!
 
-        Please provide us with the information requested in this form. 
-
-        Make sure to look through [existing `type: enhancement` issues](https://github.com/woocommerce/woocommerce/issues?q=is%3Aopen+is%3Aissue+label%3A%22type%3A+enhancement%22) and [existing `votes needed` issues](https://github.com/woocommerce/woocommerce/issues?q=is%3Aissue+sort%3Areactions-%2B1-desc+label%3A%22needs%3A+votes%22+) to see whether your idea is already being discussed.
+        Popular feature requests may be listed on [this page](https://woocommerce.com/feature-requests/woocommerce-paypal-payments/)
+        If your feature idea is not listed on this page, please provide us with the information requested in this form. 
+        
+        Make sure to look through [existing `type: enhancement` issues](https://github.com/woocommerce/woocommerce/issues?q=is%3Aopen+is%3Aissue+label%3A%22type%3A+enhancement%22) and the page linked above to see whether your idea is already being discussed.
         Feel free to contribute to any existing issues.
-        Search tip: You can filter our issues using [our enhancement label](https://github.com/woocommerce/woocommerce/issues?q=is%3Aissue+label%3A%22type%3A+enhancement%22+).
+        Search tip: You can filter our issues using [our enhancement label](https://github.com/woocommerce/woocommerce-paypal-payments/issues?q=is%3Aissue+label%3A%22type%3A+enhancement%22+).
         Search tip: Make use of [GitHub's search syntax to refine your search](https://help.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests).
   - type: textarea
     id: summary
