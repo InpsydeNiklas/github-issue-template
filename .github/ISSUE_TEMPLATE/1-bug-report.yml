@@ -1,62 +1,95 @@
 name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-assignees:
-  - octocat
+description: Report a bug if something isn't working as expected in WooCommerce PayPal Payments.
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+        ### Thanks for contributing!
+
+        Please provide us with the information requested in this bug report. 
+        Without these details, we won't be able to fully evaluate this issue. 
+        Bug reports lacking detail, or for any other reason than to report a bug, may be closed without action.
+
+        While our goal is to address all the issues reported in this repository, GitHub should be treated as a place to report confirmed bugs only.
+        - If you have a support request or custom code related question please follow one of the steps below:
+        - Review [WooCommerce Self-Service Guide](https://woocommerce.com/document/woocommerce-self-service-guide/) to see if the solutions listed there apply to your case;
+        - If you are a paying customer of WooCommerce, contact WooCommerce support by [opening a ticket or starting a live chat](https://woocommerce.com/contact-us/);
+        - Make a post on [WooCommerce PayPal Payments community forum](https://wordpress.org/support/plugin/woocommerce-paypal-payments/)
+        - To get help on custom code questions go to the [WooCommerce Community Slack](https://woocommerce.com/community-slack/) and visit the `#developers` channel. 
+
+        Make sure to look through the [existing open issues](https://github.com/woocommerce/woocommerce-paypal-payments/issues?q=is%3Aopen+is%3Aissue) to see whether your issue has already been reported.
+        Feel free to contribute to any existing issues.
+        Search tip: You can filter most issues using [our labels](https://github.com/woocommerce/woocommerce-paypal-payments/labels).
+        Search tip: Make use of [GitHub's search syntax to refine your search](https://help.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests).
   - type: checkboxes
-    id: terms
+    id: prerequisites
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: Prerequisites
+      description: Please confirm these before submitting the issue.
       options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+        - label: I have carried out troubleshooting steps and I believe I have found a bug.
+        - label: I have searched for similar bugs in both open and closed issues and cannot find a duplicate.
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: |
+        A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: |
+        A clear and concise description of what actually happens. Please be as descriptive as possible;
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Attach screenshot(s) or recording(s) directly by dragging & dropping.
+      placeholder: |
+        1. Go to
+        2. Click on
+        3. Scroll down to
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: WordPress Environment
+      description: |
+        We use the [WooCommerce System Status Report](https://woocommerce.com/document/understanding-the-woocommerce-system-status-report/) to help us evaluate the issue. 
+        Without this report we won't be able to fully evaluate this issue.
+      placeholder: |
+        The System Status Report is found in your WordPress admin under **WooCommerce > Status**. 
+        Please select “Get system report”, then “Copy for support”, and then paste it here.
+    validations:
+      required: true
+  - type: checkboxes
+    id: isolating
+    attributes:
+      label: Isolating the problem
+      description: |
+        Please try testing your site for theme and plugins conflict. 
+        To do that deactivate all plugins except for WooCommerce and WooCommerce PayPal Payments. Switch to a default WordPress theme or [Storefront](https://en-gb.wordpress.org/themes/storefront/). Then test again. 
+        If the issue is resolved with the default theme and all plugins deactivated, it means that one of your plugins or a theme is causing the issue. 
+        You will then need to enable it one by one and test every time you do that in order to figure out which plugin is causing the issue.
+      options:
+        - label: I have deactivated other plugins and confirmed this bug occurs when only the WooCommerce and WooCommerce PayPal Payments plugins are active.
+        - label: This bug happens with a default WordPress theme active, or [Storefront](https://woocommerce.com/storefront/).
+        - label: I can reproduce this bug consistently using the steps above.
+    validations:
+      required: true
