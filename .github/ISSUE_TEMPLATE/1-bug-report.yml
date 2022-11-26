@@ -92,6 +92,6 @@ body:
         - label: I have deactivated other plugins and confirmed this bug occurs when only the WooCommerce and WooCommerce PayPal Payments plugins are active.
         - label: This bug happens with a default WordPress theme active, or [Storefront](https://woocommerce.com/storefront/).
         - label: I can reproduce this bug consistently using the steps above.
-        - label: I have found a potential compatibility issue with a third-party plugin.
+        - label: I have found a potential compatibility issue with a third-party plugin. In that case, please [get in touch with the suport team](https://woocommerce.com/document/woocommerce-paypal-payments/#get-help) before creating an issue.
     validations:
       required: true
