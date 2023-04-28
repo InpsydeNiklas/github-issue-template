@@ -7,7 +7,7 @@ contact_links:
     url: https://woocommerce.com/document/woocommerce-paypal-payments/
     about: Please review the documentation for guidance with the setup.
   - name: 👨‍💻 Developer documentation
-    url: https://gist.github.com/InpsydeNiklas/b2dd0469eef25f8a89b8aaef5ff96c58?permalink_comment_id=4245135#gistcomment-4245135
+    url: https://github.com/woocommerce/woocommerce-paypal-payments/wiki#developer-docs
     about: Tips to get started for developers interested in extending the pluging with modularity.
   - name: 🔒 Security issue
     url: https://hackerone.com/automattic/
