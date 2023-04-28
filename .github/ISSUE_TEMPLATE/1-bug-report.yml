@@ -22,8 +22,6 @@ body:
         Feel free to contribute to any existing issues.
         Search tip: You can filter most issues using [our labels](https://github.com/woocommerce/woocommerce-paypal-payments/labels).
         Search tip: Make use of [GitHub's search syntax to refine your search](https://help.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests).
-    validations:
-      required: true
   - type: checkboxes
     id: prerequisites
     attributes:
@@ -31,7 +29,9 @@ body:
       description: Please confirm these before submitting the issue.
       options:
         - label: I have carried out troubleshooting steps and I believe I have found a bug.
+          required: true
         - label: I have searched for similar bugs in both open and closed issues and cannot find a duplicate.
+          required: true
     validations:
       required: true
   - type: textarea
