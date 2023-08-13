@@ -1,0 +1,124 @@
+name: "🛠 Pull Request"
+description: "Submit a PR to contribute code or documentation improvements to PayPal Payments."
+labels: ["pr", "awaiting review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Thanks for your contribution!
+
+        Please provide as much detail as possible to expedite the review process.
+        Ensure you've followed our [Contributing Guidelines](https://github.com/woocommerce/woocommerce-paypal-payments/blob/trunk/.github/CONTRIBUTING.md) and adhere to the [WordPress Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/).
+
+  - type: checkboxes
+    id: review-guidelines
+    attributes:
+      label: Submission Review Guidelines
+      options:
+        - label: I have followed the WooCommerce PayPal Payments Contributing Guidelines and the WordPress Coding Standards.
+        - label: I have checked to ensure there aren't other open Pull Requests for the same update/change.
+        - label: I have reviewed my code for security best practices.
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A concise description of the problem or the proposed changes.
+    validations:
+      required: true
+
+  - type: textarea
+    id: changes
+    attributes:
+      label: Changes proposed in this Pull Request
+      description: Describe the changes made to this Pull Request and the reason for such changes.
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue-reference
+    attributes:
+      label: Issue Reference
+      description: If applicable, link the issue this PR intends to close.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Testing Instructions
+
+        Provide comprehensive testing instructions to help us validate your PR.
+
+  - type: textarea
+    id: testing-instructions
+    attributes:
+      label: Steps for Testing
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-result
+    attributes:
+      label: Expected Result
+      description: Describe what is expected to happen after the PR changes are applied.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Attachments
+
+        Attach relevant screenshots or videos to support the testing instructions or to show the issue/changes.
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Include any additional information like related PRs, dependencies to be merged, release notes, etc.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: significance
+    attributes:
+      label: Significance
+      options:
+        - Patch
+        - Minor
+        - Major
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: type
+    attributes:
+      label: Type of Change
+      options:
+        - label: Fix - Addresses an existing issue
+        - label: Feature - Adds new functionality
+        - label: Update - Modifies existing functionality
+        - label: Refactor - Improves the code structure without changing its behavior
+        - label: Performance - Improves performance
+        - label: Enhancement - Provides additional improvements
+    validations:
+      required: true
+
+  - type: textarea
+    id: changelog-message
+    attributes:
+      label: Changelog Message
+      description: Provide a brief message for the changelog.
+    validations:
+      required: true
+
+  - type: textarea
+    id: optional-comment
+    attributes:
+      label: Optional Comment
+      description: Supply a comment if the changes in this pull request don't warrant a changelog entry. Comments are especially useful for "Patch" significance.
+    validations:
+      required: false
