@@ -1,7 +1,7 @@
 ### Submission Review Guidelines:
 
--   I have followed the [WooCommerce Contributing Guidelines](https://github.com/woocommerce/woocommerce/blob/trunk/.github/CONTRIBUTING.md) and the [WordPress Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/).
--   I have checked to ensure there aren't other open [Pull Requests](https://github.com/woocommerce/woocommerce/pulls) for the same update/change.
+-   I have followed the [WooCommerce Contributing Guidelines](https://github.com/woocommerce/woocommerce-paypal-payments/blob/trunk/.github/CONTRIBUTING.md) and the [WordPress Coding Standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/).
+-   I have checked to ensure there aren't other open [Pull Requests](https://github.com/woocommerce/woocommerce-paypal-payments/pulls) for the same update/change.
 -   I have reviewed my code for [security best practices](https://developer.wordpress.org/apis/security/).
 -   Following the above guidelines will result in quick merges and clear and detailed feedback when appropriate.
 
@@ -9,56 +9,69 @@
 
 ### Changes proposed in this Pull Request:
 
-<!-- If necessary, indicate if this PR is part of a bigger feature. Add a label with the format `focus: name of the feature [team:name of the team]`. -->
-
 <!-- Describe the changes made to this Pull Request and the reason for such changes. -->
 
 Closes # .
 
 <!-- Begin testing instructions -->
 
-### How to test the changes in this Pull Request:
 
-<!-- Include detailed instructions on how these changes can be tested. Review and follow the guide for how to write high-quality testing instructions. -->
+### PR Submission Guidelines:
 
-Using the [WooCommerce Testing Instructions Guide](https://github.com/woocommerce/woocommerce/wiki/Writing-high-quality-testing-instructions), include your detailed testing instructions:
+-   [ ] I have reviewed the PayPal Payments contributing guidelines.
+-   [ ] I confirm there are no other open [Pull Requests](https://github.com/woocommerce/woocommerce-paypal-payments/pulls) for the same update/change.
+-   [ ] I have reviewed my code for [security best practices](https://developer.wordpress.org/apis/security/).
+
+Adhering to these guidelines ensures prompt reviews and detailed feedback.
+
+### Description:
+
+<!-- A concise description of the problem and solution, as @AlexP outlined. This helps in understanding the core of the PR. For instance: "Currently we don't handle <...> which can cause <...>. This PR fixes that by <doing these things/steps>. Additionally, refactored <...> for better performance." -->
+
+#### Issue Reference:
+<!-- If applicable, link the issue this PR intends to close. -->
+
+Closes # .
+
+### Testing Instructions:
+
+<!-- Detailed steps on how the introduced changes can be tested. Using the WooCommerce Testing Instructions Guide as a reference, provide comprehensive testing instructions. -->
 
 1.
 2.
 3.
 
-<!-- End testing instructions -->
+### Screenshots/Videos:
 
-### Changelog entry
+<!-- Attach relevant screenshots or videos that support the testing instructions or show the issue (if applicable). This helps in visual verification. -->
 
-<!-- You can optionally choose to enter a changelog entry by checking the box and supplying data. -->
+### Additional Information:
 
--   [ ] Automatically create a changelog entry from the details below.
+<!-- Include any additional information like related PRs, dependencies to be merged, release notes, etc. -->
+
+### Changelog Entry:
 
 <details>
 
-#### Significance
-
-<!-- Choose only one -->
-
+#### Significance:
 -   [ ] Patch
 -   [ ] Minor
 -   [ ] Major
 
-#### Type
+#### Type:
+-   [ ] Fix - Addresses an existing issue
+-   [ ] Feature - Adds new functionality
+-   [ ] Update - Modifies existing functionality
+-   [ ] Refactor - Improves the code structure without changing its behavior
+-   [ ] Performance - Improves performance
+-   [ ] Enhancement - Provides additional improvements
 
-<!-- Choose only one -->
+#### Changelog Message:
+<!-- Provide a brief message for the changelog. -->
 
--   [ ] Fix - Fixes an existing bug
--   [ ] Add - Adds functionality
--   [ ] Update - Update existing functionality
--   [ ] Dev - Development related task
--   [ ] Tweak - A minor adjustment to the codebase
--   [ ] Performance - Address performance issues
--   [ ] Enhancement - Improvement to existing functionality
-
-#### Message <!-- Add a changelog message here -->
-
-#### Comment <!-- If the changes in this pull request don't warrant a changelog entry, you can alternatively supply a comment here. Note that comments are only accepted with a significance of "Patch" -->
+#### Optional Comment:
+<!-- Supply a comment if the changes in this pull request don't warrant a changelog entry. Comments are especially useful for "Patch" significance. -->
 
 </details>
+
+---
