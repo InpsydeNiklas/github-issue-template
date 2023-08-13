@@ -1,5 +1,5 @@
 name: "🛠 Pull Request"
-description: "Submit a PR to contribute code or documentation improvements to PayPal Payments."
+description: "123 Submit a PR to contribute code or documentation improvements to PayPal Payments."
 labels: ["pr", "awaiting review"]
 body:
   - type: markdown
