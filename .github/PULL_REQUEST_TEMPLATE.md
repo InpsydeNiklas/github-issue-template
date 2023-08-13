@@ -10,25 +10,25 @@ By submitting this Pull Request, I confirm to have:
 
 <!-- A concise description of the problem. E.g., "Currently, we don't handle XYZ, leading to ABC issues.  -->
 
-### Changes proposed:
-
-<!-- Describe the changes made to this Pull Request and the reason for such changes. E.g. "This PR fixes the problem by <doing these things/steps>. Additionally, refactored <...> for better performance." -->
-
-1. Change 1: _Provide a brief description._
-2. Change 2: _Provide a brief description._
-3. ... 
-
 #### Issue Reference:
 
 <!-- Link to the issue this PR resolves (if applicable) -->
 
 Closes #
 
+### Changes proposed:
+
+<!-- Describe the changes made to this Pull Request and the reason for such changes. E.g. "This PR fixes the problem by <doing these things/steps>. Additionally, refactored <...> for better performance." -->
+
+1. Change A: _Provide a brief description._
+2. Change B: _Provide a brief description of additional changes._
+3. ... 
+
 ### Testing Instructions:
 
-<!-- Please provide as much detail as possible. Using the WooCommerce Testing Instructions Guide can help. -->
+<!-- Please provide as much detail as possible. Using the WooCommerce Testing Instructions Guide can help: https://github.com/woocommerce/woocommerce/wiki/Writing-high-quality-testing-instructions -->
 
-1. Go to '...'
+1. Navigate to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See the result
