@@ -1,6 +1,6 @@
 # Contributing to WooCommerce PayPal Payments ✨
 
-WooCommerce PayPal Payments provides a comprehensive solution for online payment processing. Your contributions to enhance this tool are invaluable. Let's collaborate to make it even better!
+WooCommerce PayPal Payments provides a comprehensive solution for online payment processing powered by PayPal. Your contributions to enhance this tool are invaluable. Let's collaborate to make it even better!
 
 Here's how you can contribute:
 
