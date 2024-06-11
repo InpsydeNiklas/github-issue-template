@@ -47,5 +47,5 @@ Before diving in, familiarize yourself with the following resources:
 
 To suggest new features, visit our [feature request page](https://woocommerce.com/feature-requests/woocommerce-paypal-payments/). Here, you can browse, vote on, or create new feature requests.
 
-Alternatively, for simple technical enhancements, [open a new issue](https://github.com/woocommerce/woocommerce-paypal-payments/issues/new) on GitHub. For topics that need more extensive discussion, it's a good idea to connect with us during office hours or start a thread on [GitHub Discussions](https://github.com/woocommerce/woocommerce-paypal-payments/discussions).
+Alternatively, for simple technical enhancements, [open a new issue](https://github.com/woocommerce/woocommerce-paypal-payments/issues/new) on GitHub. For topics that need more extensive discussion, it's a good idea to [connect with the plugin support team](https://woocommerce.com/document/woocommerce-paypal-payments/#get-help).
 
