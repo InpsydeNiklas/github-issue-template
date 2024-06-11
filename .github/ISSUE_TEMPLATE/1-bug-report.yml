@@ -93,6 +93,6 @@ body:
       options:
         - label: I have deactivated other plugins and confirmed this bug occurs when the [Storefront](https://woocommerce.com/storefront/) theme, and only the WooCommerce and PayPal Payments plugins are active.
         - label: I can reproduce this bug consistently using the steps above.
-        - label: I have found a potential compatibility issue with a third-party plugin. I reported this issue [to the suport team](https://woocommerce.com/document/woocommerce-paypal-payments/#get-help) before creating this issue.
+        - label: I have found a potential compatibility problem with a third-party plugin and reported this problem [to the support team](https://woocommerce.com/document/woocommerce-paypal-payments/#get-help) before creating this issue.
     validations:
       required: true
